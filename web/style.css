@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2018, 9:48:39 PM
+    Author     : DELL
+*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+     box-sizing: border-box
+}
+.container{
+    width: 980px
+    
+}
+.banner{
+    height: 324px;
+    background-color: #9BD770;
+    position: relative;
+}
+.banner h2{
+    position: absolute;
+    text-align: center;
+    top:100px;
+    width: 100%;
+    color: #0A3409;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.banner h3{
+    position: absolute;
+    text-align: center;
+    top:160px;
+    width: 100%;
+    color: #375F1B;
+    font-size: 3rem;
+    font-weight: bolder;
+    
+}
+.main{
+    height: 700px;
+    background-color: #E8F3E8;
+    box-sizing: border-box
+}
+.main aside{
+    width: 320px;
+    height: 700px;
+    border-right: 1px  solid #000;
+    float: left;
+    display: inline
+}
+.main aside ul {
+   margin-top: 50px
+    
+}
+.main aside ul li{
+    list-style: none;
+    border-bottom: 1px solid #000 
+    
+}
+.main aside ul li:first-child{
+    border-top: 1px solid #000 
+}
+.main aside ul li a{
+    text-decoration: none;
+    line-height: 50px;
+    width: 100%;
+    margin-left: 20px
+    
+}
+.main aside ul li a:hover{
+    background-color: #555
+}
+.main main{
+    width: 660px;
+    height: 700px;
+    border-right: 1px  solid #c33;
+    float: left;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#content{
+    margin-top: 20px
+}
+#search{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 10px ;
+    border-style: none;
+    position: relative;
+    margin: 10px 0px;
+    background-image: url('images/design/search.png');
+    background-size: 30px;
+    background-position: left;
+    background-repeat:  no-repeat;
+    padding-left: 35px
+    
+    
+}
+#btn_go{
+    margin-top: 20px;
+    width: 50px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    border-style: none;
+    background-color: #559E54;
+    
+}
+footer{
+    height: 70px;
+    background-color: #0A3409
+}
+
+ table, tr, th, td{
+        border-collapse: collapse
+    }
+    table{
+        width: 600px
+    }
